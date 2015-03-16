@@ -227,7 +227,7 @@ dataSubActAvg <- tbl_df(data.frame(stringsAsFactors = FALSE,
                         average=rowMeans(dataSubActMeanSD[,-2])))
 
 # Write the final tidy data to a .CSV file
-write.table(dataSubActAvg, paste(dirBoth, "finalTidyData.csv", sep="/"),
+write.table(dataSubActAvg, paste(dirBoth, "finalTidyData.txt", sep="/"),
             sep=",", row.names=FALSE) 
 
 # clean-up
@@ -235,6 +235,6 @@ remove (dirRoot, dataSubActMeanSD )
 cat("....done \n")
 
 cat("Tidy data is in environment data frame dataSubActAvg\n")
-cat(paste("Tidy data file is: ", dirBoth, "/finalTidyData.csv\n", sep=""))
+cat(paste("Tidy data file is: ", dirBoth, "/finalTidyData.txt\n", sep=""))
 remove(dirBoth)
 cat("Complete\n")
