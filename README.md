@@ -18,7 +18,7 @@ If you clone this repository, then from within R *`source("run_analysis.R")`*, e
 1. combination of steps 2 & 4, as it was more logical to label and extact the necessary data  
 2. interpretation of the final tidy data set
 
-#### Data Organization
+#### Data Description
 
 * README.md *(this markdown file)* 
 * run_analyis.R *(the program to complete the assignment)*
@@ -41,7 +41,8 @@ If you clone this repository, then from within R *`source("run_analysis.R")`*, e
     *NOTE:*  10299 = 7352 (from train) + 2947 (from test)
         + activities.csv *(10299 rows of test activity IDs)*
         + features.csv *(10299x561; row of features for each test subject/activity)*
-        + finalTidyData.csv *(10299x3 rows; each with subject, activity, average)*
+        + finalTidyData.txt *(10299x3 rows; each with subject, activity, average)*  
+        **NOTE** Only this file was uplaoded to the assignment page
         + subjects.csv *(10299 rows of test subject IDs)*
         + Inertial Signals *(9 files; 10299x128; row of measures for each test subject/actvity )*
             + body\_acc\_[XYX]_both.txt
@@ -49,24 +50,4 @@ If you clone this repository, then from within R *`source("run_analysis.R")`*, e
             + total\_acc\_[XYX]_both.txt
   
 
-
-
-Here is some code
-<!-- -->
-
-    makeVector <- function(x = numeric()) {
-            m <- NULL
-            set <- function(y) {
-                    x <<- y
-                    m <<- NULL
-            }
-            get <- function() x
-            setmean <- function(mean) m <<- mean
-            getmean <- function() m
-            list(set = set, get = get,
-                 setmean = setmean,
-                 getmean = getmean)
-    }
-
-	
-And this is the end
+Enjoy, and thank you.
