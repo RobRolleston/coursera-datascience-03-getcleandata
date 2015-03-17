@@ -2,7 +2,7 @@
 ### 2015-March
 #### [Rob Rolleston](rob.rolleston@xerox.com)
 
-The complete instuctions for the proejct can be found [here](https://class.coursera.org/getdata-012/human_grading)
+The complete instuctions for the project can be found [here](https://class.coursera.org/getdata-012/human_grading)
 
 In summary:
 "You should create one R script called run_analysis.R that does the following. 
