@@ -1,8 +1,8 @@
-## Coursera: [Getting and Cleaning Data](https://class.coursera.org/getdata-012) Final Project
+## Coursera: [Getting and Cleaning Data](https://class.coursera.org/getdata-034) Final Project
 ### 2015-November
 #### [Rob Rolleston](rob.rolleston@xerox.com)
 
-The complete instructions for the project can be found [here](https://class.coursera.org/getdata-012/human_grading)
+The complete instructions for the project can be found [here](https://class.coursera.org/getdata-034/human_grading)
 
 In summary:
 "You should create one R script called run_analysis.R that does the following. 
