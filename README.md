@@ -22,7 +22,7 @@ If you clone this repository, then from within R *`source("run_analysis.R")`*, e
 
 * README.md *(this markdown file)* 
 * run_analyis.R *(the program to complete the assignment.  Running this will produce the additional files within the 'both' data directory.)*
-* [codebook.md](http://) is the Data Dictionary
+* [codebook.md](https://github.com/RobRolleston/coursera-datascience-03-getcleandata/blob/master/codebook.md) is the Data Dictionary
   
 
 Enjoy, and thank you.
